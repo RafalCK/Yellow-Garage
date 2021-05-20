@@ -1,0 +1,28 @@
+@import "../../styles.scss";
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__logo {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+  }
+
+  &__list {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  &__item {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $black;
+    color: $yellow;
+    text-align: center;
+    font-weight: 700;
+  }
+}
